@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          echo hi
           echo $GITHUB_SHA
           echo $GITHUB_REF
       - name: github action checkout
